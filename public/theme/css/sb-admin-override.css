@@ -1,0 +1,270 @@
+/*!
+ * Start Bootstrap - SB Admin v4.0.0-beta (https://startbootstrap.com/template-overviews/sb-admin)
+ * Copyright 2013-2017 Start Bootstrap
+ */
+
+
+/*dropdown*/
+
+
+/*.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: unset;
+    background: 0 0;
+    border: 0;
+    overflow-x: hidden; }*/
+
+
+/*.dropdown-divider {
+    height: 0;
+    margin: 0; 
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+    }*/
+
+
+/*card*/
+
+.o-hidden {
+    overflow: unset!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(233, 236, 239);
+    border-radius: .25rem;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -23px;
+    right: -25px;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+
+.card-footer {
+    padding: .4rem 0.50rem;
+    background-color: rgba(0, 0, 0, .03);
+    /*z-index: 0;*/
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.mr-5-bold {
+    margin-right: 3rem!important;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*icon*/
+
+.icon-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/*breadcrumb*/
+
+.breadcrumb {
+    background-color: unset;
+}
+
+.inline {
+    display: unset;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+
+/*tab utility*/
+
+.tab5px {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Legend */
+
+fieldset legend {
+    padding-bottom: 5px;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 18px;
+    font-size: 19.5px;
+    line-height: inherit;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5!important;
+}
+
+
+
+
+
+
+
+
+
+/* input addon */
+
+.no-radius {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #218838;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+
+
+
+
+/*a card link*/
+
+.card-link {
+    color: #fff!important;
+}
+
+.card-link:hover {
+    color: #ddd!important;
+}
+
+.text-top-100 {
+    z-index: 1;
+    position: relative;
+}
+
+.card-body-icon {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+/* Profile container */
+
+.profile {
+    margin: 5px 0;
+    /*max-width: 250px;*/
+    align-self: center;
+}
+
+
+
+/* Profile sidebar */
+
+.profile-icon {
+    padding-right: 5px;
+    max-width: 69px;
+}
+
+.profile-contant {
+    /*margin: 5px 5px 5px 5px;*/
+    width: 100%;
+    align-self: center;
+    /*max-width: 181px;*/
+}
+
+.profile-projecttitle {
+    text-align: center;
+    margin-top: 5px;
+    background-color: : #212529;
+    overflow-wrap: break-word;
+}
+
+.profile-project-t {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    overflow-wrap: break-word;
+}
+
+.profile-project-b {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.profile-hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}

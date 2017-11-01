@@ -113,7 +113,7 @@ $di->setShared('session', function () {
 
 $di->set('mongo', function() {
     $mongo = new MongoClient();
-    return $mongo->selectDb("test");
+    return $mongo->selectDb("sml");
 }, true);
 
 
