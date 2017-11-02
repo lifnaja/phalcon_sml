@@ -27,7 +27,7 @@ class TaskController extends \Phalcon\Mvc\Controller
 
         $task->save();
         
-        return $this->response->redirect("index/index");
+        return $this->response->redirect("index");
     }
 
     public function checkDupAction()

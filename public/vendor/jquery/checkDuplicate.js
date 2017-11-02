@@ -74,7 +74,13 @@
 
                     function saveproject(){
                         var name = $("#name").val();
-
+                       
+                        
+                        $.post("save", {
+                            name: name
+                        }, function (data) {
+                        });
+                        window.location.replace("");
 
                     }
 
