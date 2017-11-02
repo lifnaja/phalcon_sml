@@ -2,8 +2,8 @@
 use Phalcon\Mvc\Collection;  
 
 
-class Project extends Collection { 
+class stakeholder extends Collection { 
    public function initialize() { 
-      $this->setSource("project"); 
+      $this->setSource("stakeholder"); 
    } 
 }

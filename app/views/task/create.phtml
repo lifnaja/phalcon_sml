@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Edit Task</title>
-  <!-- Bootstrap core CSS-->  
-  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom fonts for this template-->
-  <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <!-- Custom styles for this template-->
-  <link href="../theme/css/sb-admin.css" rel="stylesheet">
-  <!-- css modify for override class -->
-  <link href="../theme/css/sb-admin-override.css" rel="stylesheet">
-</head>
-
+<div class="container">
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
 
   <!-- Navigation-->
@@ -129,11 +111,11 @@
               <div class="card-body">
                 <div class="">
                 <!-- container -->
-                  <form>
+                
                     <div class="form-group row">
                       <label for="project" class="col-sm-2 col-form-label">Task</label>
                       <div class="col-sm-6">
-                        <input type="text" class="form-control" id="taskname" placeholder="task name">
+                        <input type="text" class="form-control" id="name" placeholder="task name">
                       </div>
                     </div>
                     <div class="form-group row">
@@ -226,10 +208,11 @@
                     </div>
                     <div class="form-group row">
 				      <div class="offset-sm-2 col-sm-10">
-				        <button type="submit" class="btn btn-primary">Save</button>
+				        <button type="submit" class="btn btn-primary" id="savetask">Save</button>
+               
 				      </div>
 				    </div>
-                  </form>
+                 
                 </div>
               </div>
             </div>
@@ -278,25 +261,11 @@
       <!-- /.Logout Modal-->
       
       <!-- Bootstrap core JavaScript-->
-      <script src="../vendor/jquery/jquery.min.js"></script>
-      <script src="../vendor/popper/popper.min.js"></script>
-      <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-      <!-- Core plugin JavaScript-->
-      <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
-      <!-- Custom scripts for all pages-->
-      <script src="../theme/js/sb-admin.min.js"></script>
-      <!-- /.Bootstrap core JavaScript-->
-
-      <script type="text/javascript">
-        $(function () {
-          $('[data-toggle="popover"]').popover()
-        })
-      </script>
-
+    
     </div>
     <!-- /.content-wrapper-->
     <!-- /.End Page -->
 
-  </body>
+</div>
 
-  </html>
+

@@ -18,6 +18,37 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
+    <!--
+        <script>
+        
+            $(document).ready(function() {
+    
+                   
+                    $('#savetask').click(function(){
+                            var input = $("#name").val();
+                            $.post(' echo  $this->url->get('task/checkDup')?>',{    
+                                name: input
+                            }, function(data){
+                                console.log(data);
+                               if(data == 0){
+                                    alert("cannot save");
+                               }else{
+                                   alert("save it");
+                               }
+                            },  "json");
+
+                           
+                    });
+
+                    function save(){
+                        var input = $("#name").val();
+                    }
+                }); 
+        </script>
+        -->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/jquery/checkDuplicate.js"></script>
+
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
     
